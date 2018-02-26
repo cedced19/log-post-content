@@ -1,0 +1,30 @@
+{
+  "name": "log-post-content",
+  "version": "0.0.0",
+  "description": "A simple script to log all content of a POST request.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedced19/log-post-content.git"
+  },
+  "keywords": [
+    "POST",
+    "request",
+    "logger",
+    "content"
+  ],
+  "bin": {
+    "log-post-content": "index.js"
+  },
+  "author": "Cédric JUNG <cedced19@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cedced19/log-post-content/issues"
+  },
+  "homepage": "https://github.com/cedced19/log-post-content#readme",
+  "dependencies": {
+    "env-port": "0.0.0",
+    "express": "^4.16.2",
+    "server-welcome": "0.0.0"
+  }
+}
